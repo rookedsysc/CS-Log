@@ -1,4 +1,12 @@
 {
+  "os": {
+    "title": "Operating System",
+    "type": "page"
+  },
+  "network": {
+    "title": "Network",
+    "type": "page"
+  },
   "index": {
     "title": "Introduce",
     "type": "page"
