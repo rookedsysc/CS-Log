@@ -1,23 +1,37 @@
-# Nextra Docs Template 
+## 🗂️ Nextra Tip
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+* 폴더 구조는 pages/세부카테고리/내용.mdx를 가집니다. 
+* 각 폴더의 _meta.json 파일을 사용해서 제목을 관리합니다.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+```json
+{
+  " {{ 파일이름(확장자명 제외)}} ": "파일명"
+}
+```
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+## 💫 정리 시 참고사항
+* 깃허브 저장소에 정리되어 있는 주제들을 보고 참고해주세요.
+* 각 주의 정리 순서는 `운영체제` → `네트워크` → `데이터베이스` → `자바 및 스프링` → `자유 주제` 순으로 진행됩니다.
+* 내용 정리는 줄글이 아닌 **한눈에 파악하기 쉽도록 깔끔하게** 정리해주세요. 
+	* br 태그를 이용하여 문단 간의 공백을 넣어주세요. 
+* Tech-Interview에 있는 질문들에 대한 답만 정리하는 것이 아닌, **개념 위주**로 정리해주세요.
+	* 질문들은 주제에 대한 키워드이기 때문에 정리해나갈 방향 정도로 생각해주세요.
+* 커밋하기 전에 **동기화**를 꼭 해주세요.
 
-## Quick Start
+<br/>
 
-Click the button to clone this repository and deploy it on Vercel:
+## 💡 Rule
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+**[ 스터디 진행 ]**
+- 매주 수요일 20시 00분 화상스터디 진행
+    - 저번 주차의 주제들을 바탕으로 면접 준비
+- 화상 스터디 전 날(화요일)까지 맡은 주제를 정리해서 PR 생성
 
-## Local Development
+**[ 스터디 방법 ]**
+- 매주 각 분야별로 하나씩 총 5개의 주제 선정
+- 각자 해당 주차의 주제들 중 하나를 맡아 정리
+- 저번 주차의 주제들 모두 학습 및 주제 별 질문리스트 생각해오기
 
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+**[ 스터디 규칙 ]**
+- 스터디 진행 시 항상 카메라 ON
+- 특별한 사유없는 불참과 맡은 주제 정리 미완료 3회시 스터디 퇴장
