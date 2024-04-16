@@ -1,4 +1,4 @@
-# 3-way handshake
+## 3-way handshake
 
 > [TCP](https://github.com/jmxx219/CS-Study/blob/main/Network/TCP%EC%99%80%20UDP.md#tcptransmission-control-protocol)는 애플리케이션 프로세스간의 데이터 전송 전에 논리적인 접속을 성립(establish)하기 위해서 3-way handshake 과정을 거친다.
 
@@ -9,7 +9,7 @@
   - Client > Server : TCP ACK
 
 
-<br>
+<br></br>
 
 ## 3-Way-Handshake에서 사용되는 TCP 헤더 필드
 
@@ -34,7 +34,7 @@
 - 이러한 문제들이 발생할 가능성을 줄이기 위해 랜덤 값으로 설정함
 
 
-<br>
+<br></br>
 
 ### ◽️ Acknowledgement Number
 
@@ -62,8 +62,8 @@
 
 
 <img width="500px" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F225A964D52F1BB6917"/>
-<br>
-<br>
+<br></br>
+<br></br>
 
 
 ### State(Port 상태 정보)
@@ -74,7 +74,7 @@
 - `SYN-RECV`: 연결 요청에 대한 응답/연결을 요청하고 Client의 응답을 기다리는 상태
 - `ESTABLISHED`: 포트가 연결된 상태
 
-<br>
+<br></br>
 
 ### 동작방식
 
@@ -116,8 +116,8 @@
 1. 클라이언트와 서버가 데이터를 주고 받음
 
 
-<br>
-<br>
+<br></br>
+<br></br>
 
 ## 2-way Handshake
 
@@ -166,8 +166,8 @@
   - [Step 3] `Client → ACK → Server`이 필요
 
 
-<br>
-<br>
+<br></br>
+<br></br>
 
 ## SYN Flooding(TCP SYN Flood)
 
@@ -212,8 +212,8 @@
    2. 서버가 클라이언트에게 SYN-ACK 패킷을 보낼 때, 패킷에 SYN Cookie 값을 넣어 전송함
    3. 클라이언트는 서버에게 ACK 응답 패킷을 보내고, 서버는 Cookie 값과 함께 SYN 패킷이 올바른지 확인함
 
-<br>
-<br>
+<br></br>
+<br></br>
 
 
 ### Ref
