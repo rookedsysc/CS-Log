@@ -1,4 +1,8 @@
 {
+  "os": {
+    "title": "운영체제",
+    "type": "page"
+  },
   "index": {
     "title": "Introduce",
     "type": "page"
