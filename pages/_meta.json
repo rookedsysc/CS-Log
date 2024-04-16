@@ -1,6 +1,10 @@
 {
   "os": {
-    "title": "운영체제",
+    "title": "Operating System",
+    "type": "page"
+  },
+  "network": {
+    "title": "Network",
     "type": "page"
   },
   "index": {
