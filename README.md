@@ -1,3 +1,14 @@
+## 👨‍💻 스터디원
+
+|이름|깃허브|
+|------|---|
+|배수빈|[@baexxbin](https://github.com/baexxbin)|
+|손지민|[@jmxx219](https://github.com/jmxx219)|
+|최동근|[@reddevilmidzy](https://github.com/reddevilmidzy)|
+|이재표|[@jaepyo-Lee](https://github.com/jaepyo-Lee)|
+|백종인|[@rookedsysc](https://github.com/rookedsysc)|
+|홍지운|[@jackson-hong](https://github.com/jackson-hong)| 
+
 ## 🗂️ Nextra Tip
 
 * 폴더 구조는 pages/세부카테고리/내용.mdx를 가집니다. 
