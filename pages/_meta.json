@@ -7,6 +7,14 @@
     "title": "Network",
     "type": "page"
   },
+  "database": {
+    "title": "Database",
+    "type": "page"
+  },
+  "java": {
+    "title": "Java",
+    "type": "page"
+  },
   "index": {
     "title": "Introduce",
     "type": "page"
